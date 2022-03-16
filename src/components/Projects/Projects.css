@@ -1,0 +1,98 @@
+.projects {
+    height: auto;
+    width: 100%;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+p {
+    text-align: center;
+}
+
+.project-content-box {
+    display: flex;
+    justify-content: center;
+}
+
+.project-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.image-content {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    position: relative;
+    padding: .5rem;
+    transition: .3s ease;
+}
+
+.image-content:hover {
+    transform: translateY(-20px);
+}
+
+
+.image-title {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    width: 100%;
+    font-size: 1rem;
+    z-index: 99;
+}
+
+.image-project {
+    max-width: 100%;
+    border-radius: 3px;
+    border-bottom: 3px transparent;
+
+}
+
+.button-modal {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+/* After click */
+
+.input-box {
+    display: flex;
+    justify-content: center;
+}
+
+.input-box input {
+    width: 40%;
+    padding: 1rem;
+    outline: none;
+    color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 50px;
+}
+
+.github-icon {
+    position: absolute;
+    top: -1rem;
+    left: -1rem;
+    font-size: 1.7rem;
+    z-index: 99;
+    background-color: #222;
+    padding: 10px;
+    color: #fff;
+    border-radius: 50%;
+}

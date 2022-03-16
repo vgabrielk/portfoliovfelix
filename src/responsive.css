@@ -1,0 +1,9 @@
+
+@media(max-width: 565px)
+{
+    .input-box input 
+    {
+        width: 80%;
+    }
+
+}

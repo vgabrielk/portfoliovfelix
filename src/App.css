@@ -1,0 +1,26 @@
+.header {
+    box-shadow: 9px 0px 12px rgba(0, 0, 0, 0.486);
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 109;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    transition: .5s ease
+}
+
+.button-switcher {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translateY(1rem);
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
