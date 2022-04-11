@@ -1,9 +1,11 @@
 
-@media(max-width: 565px)
+@media(max-width: 600px)
 {
     .input-box input 
     {
         width: 80%;
     }
-
+    .title::after{
+        display: none;
+    }
 }

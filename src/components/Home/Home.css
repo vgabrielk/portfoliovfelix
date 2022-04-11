@@ -9,18 +9,20 @@
 }
 
 .button-view {
-  width: 190px;
+  width: 230px;
   height: 40px;
   background-color: transparent;
-  border: 1px solid #40e0d0;
+  border: none;
   cursor: pointer;
   font-weight: bold;
   outline: none;
   transition: .3s ease;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  border-radius: 3px;
 }
 
 .button-view:hover {
-  transform: scale(1.1);
+  transform: scale(1.04);
 }
 
 .bg-content {
@@ -39,4 +41,11 @@
   font-size: 4rem;
   z-index: 20;
   text-align: center;
+  font-style: italic;
+}
+ .title b {
+  font-style: italic;
+
+  font-size: 6rem;
+  color: #31f500;
 }

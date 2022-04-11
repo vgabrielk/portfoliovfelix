@@ -3,34 +3,38 @@
 export const data = [
     {
         id: 1,
+        image: 'https://res.cloudinary.com/portfolio-vfelix/image/upload/v1649669595/vuejs_list_df311o.png',
+        title: 'ToDo List',
+        description: 'Lista dinâmica com VueJS',
+        link: 'https://listvuejs.netlify.app/',
+        tech: 'VueJS, Css',
+        repository: false,
+        lang: 'Vue JS'
+    },
+    {
+        id: 2,
         image: 'https://res.cloudinary.com/portfolio-vfelix/image/upload/v1647404867/Captura_de_tela_de_2022-03-16_01-27-27_nj7dpu.png',
         title: 'VG BANK',
         description: 'Projeto desenvolvido com a intenção de criar uma interface para banco que seja interativa com o usuário',
         link: 'https://vgbank.netlify.app',
         tech: 'React JS, Css, React Router, ',
         repository: true,
-        repositoryLink: 'https://github.com/vgabrielk/vgbank'
+        repositoryLink: 'https://github.com/vgabrielk/vgbank',
+        lang: 'React JS'
     },
     {
-        id: 2,
+        id: 3,
         title: 'Covid 19 statistics API',
         image: 'https://res.cloudinary.com/portfolio-vfelix/image/upload/v1647404755/covid_ekobgq.png',
         description: 'Projeto desenvolvido com estatísticas da covid 19 em todos os estados brasileiros...',
         link: 'https://coronabrr.netlify.app',
         tech: 'React JS, Css',
         repository: true,
-        repositoryLink: 'https://github.com/vgabrielk/CovidAPI'
+        repositoryLink: 'https://github.com/vgabrielk/CovidAPI',
+        lang: 'React JS'
     },
-    {
-        id: 3,
-        image: 'https://res.cloudinary.com/portfolio-vfelix/image/upload/v1647404755/disney_yv7wtu.png',
-        title: 'Disney Teste técnico API',
-        description: 'Teste técnico para uma vaga de desenvolvedor front-end, consumindo api da disney',
-        link: 'https://disneyteste.netlify.app',
-        tech: 'React JS, Css',
-        repository: true,
-        repositoryLink: 'https://github.com/vgabrielk/testetecnicodisneyapi'
-    },
+    
+
     {
         id: 4,
         image: 'https://res.cloudinary.com/portfolio-vfelix/image/upload/v1647404755/dublin_gtc2oy.png',
@@ -39,7 +43,8 @@ export const data = [
         link: 'https://intercambio-dublin.netlify.app',
         tech: 'React JS, Bootstrap, Css',
         repository: true,
-        repositoryLink: 'https://github.com/vgabrielk/IntercambioDublin'
+        repositoryLink: 'https://github.com/vgabrielk/IntercambioDublin',
+        lang: 'React JS'
     },
     {
         id: 5,
@@ -49,7 +54,8 @@ export const data = [
         link: 'https://vitorfelix.pt',
         tech: 'Html, Bootstrap, Css, Javascript',
         repository: true,
-        repositoryLink: 'https://github.com/vgabrielk/Curriculo-Vitor-Felix'
+        repositoryLink: 'https://github.com/vgabrielk/Curriculo-Vitor-Felix',
+        lang: 'Bootstrap'
     },
     {
         id: 6,
@@ -58,7 +64,8 @@ export const data = [
         description: 'Esse site foi o meu primeiro freelance, onde aprendi bastante sobre bootstrap e flexbox',
         link: 'https://portalimoveis.netlify.app',
         tech: 'Html, Bootstrap, Css, Javascript',
-        repository: false
+        repository: false,
+        lang: 'Bootstrap'
     },
     {
         id: 7,
@@ -67,7 +74,8 @@ export const data = [
         description: 'Trabalho para faculdade da minha irmã, quiz em javascript',
         link: 'https://musculosdaface.netlify.app/',
         tech: 'Html, Css, Javascript',
-        repository: false
+        repository: false,
+        lang: 'Html, css, js'
 
     },
     {

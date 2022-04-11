@@ -40,7 +40,7 @@ p {
 }
 
 .image-content:hover {
-    transform: translateY(-20px);
+    transform: translateY(-4px);
 }
 
 
@@ -59,6 +59,8 @@ p {
     max-width: 100%;
     border-radius: 3px;
     border-bottom: 3px transparent;
+    height: 100%;
+    object-fit: cover;
 
 }
 
@@ -95,4 +97,23 @@ p {
     padding: 10px;
     color: #fff;
     border-radius: 50%;
+}
+
+.framework-lang{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50px;
+    background-color: #31f500;
+    z-index: 99;
+    height: 20px;
+    width: 80px;
+    display: grid;
+    place-items: center;
+    color: #222;
+    font-weight: bold;
+    padding: 5px;
+    font-size: .8rem;
+    box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.804);
 }
