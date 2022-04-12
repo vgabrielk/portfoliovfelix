@@ -7,7 +7,6 @@ export const data = [
         title: 'ToDo List',
         description: 'Lista dinâmica com VueJS',
         link: 'https://listvuejs.netlify.app/',
-        tech: 'VueJS, Css',
         repository: false,
         lang: 'Vue JS'
     },
@@ -17,7 +16,6 @@ export const data = [
         title: 'VG BANK',
         description: 'Projeto desenvolvido com a intenção de criar uma interface para banco que seja interativa com o usuário',
         link: 'https://vgbank.netlify.app',
-        tech: 'React JS, Css, React Router, ',
         repository: true,
         repositoryLink: 'https://github.com/vgabrielk/vgbank',
         lang: 'React JS'
@@ -28,7 +26,6 @@ export const data = [
         image: 'https://res.cloudinary.com/portfolio-vfelix/image/upload/v1647404755/covid_ekobgq.png',
         description: 'Projeto desenvolvido com estatísticas da covid 19 em todos os estados brasileiros...',
         link: 'https://coronabrr.netlify.app',
-        tech: 'React JS, Css',
         repository: true,
         repositoryLink: 'https://github.com/vgabrielk/CovidAPI',
         lang: 'React JS'
@@ -41,7 +38,6 @@ export const data = [
         title: 'Intercâmbio DUBLIN',
         description: 'Site desenvolvido para doação de verba para intercâmbio...',
         link: 'https://intercambio-dublin.netlify.app',
-        tech: 'React JS, Bootstrap, Css',
         repository: true,
         repositoryLink: 'https://github.com/vgabrielk/IntercambioDublin',
         lang: 'React JS'
@@ -52,7 +48,6 @@ export const data = [
         title: 'Currículo',
         description: 'Site que desenvolvi inspirado no meu currículo em PDF e repliquei desta forma',
         link: 'https://vitorfelix.pt',
-        tech: 'Html, Bootstrap, Css, Javascript',
         repository: true,
         repositoryLink: 'https://github.com/vgabrielk/Curriculo-Vitor-Felix',
         lang: 'Bootstrap'
@@ -63,7 +58,6 @@ export const data = [
         title: 'Portal Imóveis',
         description: 'Esse site foi o meu primeiro freelance, onde aprendi bastante sobre bootstrap e flexbox',
         link: 'https://portalimoveis.netlify.app',
-        tech: 'Html, Bootstrap, Css, Javascript',
         repository: false,
         lang: 'Bootstrap'
     },
@@ -73,7 +67,6 @@ export const data = [
         title: 'Quiz',
         description: 'Trabalho para faculdade da minha irmã, quiz em javascript',
         link: 'https://musculosdaface.netlify.app/',
-        tech: 'Html, Css, Javascript',
         repository: false,
         lang: 'Html, css, js'
 
@@ -84,7 +77,6 @@ export const data = [
         title: '',
         description: '/',
         link: '/',
-        tech: '/'
     },
 
 ]

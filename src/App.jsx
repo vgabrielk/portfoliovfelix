@@ -10,7 +10,7 @@ import Footer from './components/Footer/Footer';
 
 function App() {
 
-  const [theme, setTheme] = useState(false)
+  const [theme, setTheme] = useState(true)
 
   useEffect(() => {
     Aos.init({

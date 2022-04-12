@@ -35,8 +35,7 @@ function Projects({ theme }) {
               return val;
             }
             return (
-              val.tech.toLowerCase().includes(search.toLowerCase()) ||
-              val.title.toLowerCase().includes(search.toLowerCase())
+              val.lang?.toLowerCase().includes(search.toLowerCase())
             );
           })
           .map((project) => (
